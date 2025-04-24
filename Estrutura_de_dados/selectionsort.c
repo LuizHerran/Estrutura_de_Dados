@@ -44,7 +44,6 @@ for(int i = 0; i < tam-1; i++){
         vet[i]=vet[max];
         vet[max]=aux;
         }
-
 }
 for(int i = 0; i < tam; i++){
     printf("%d ", vet[i]);
